@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="forms.css">
+    <link rel="stylesheet" media="screen and (max-width: 500px)" href="phone.css">
+</head>
+
+<body>
+
+    <div id="div">
+        <div id="git">
+            <!-- <h5>Get In Touch</h5> -->
+            Get In Touch
+        </div>
+        <!-- <div id="form"> -->
+        <div id="div_form">
+            <form action="backend.php" id="fm">
+                <div class="form">
+                    <input type="text" placeholder="First Name" class="field" id="f_name">
+                    <input type="text" placeholder="Last Name" class="field" id="l_name">
+                </div>
+                <div class="form">
+                    <input type="text" placeholder="Email" class="field" id="email">
+                    <input type="number" placeholder="Phone" class="field" id="num">
+                </div>
+                <div class="form">
+                    <input type="text" placeholder="Address" class="field" id="address">
+                </div>
+                <div class="form">
+                    <textarea placeholder="Type your message here" style="resize:none" class="field"
+                        id="message"></textarea>
+                </div>
+                <div id="btn">
+                    <input type="submit" id="submit" value="Submit">
+                </div>
+
+            </form>
+            <div id="tnx">
+                Thanks for submitting!
+            </div>
+        </div>
+        
+    </div>
+
+</body>
+
+</html>

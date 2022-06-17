@@ -1,0 +1,95 @@
+body{
+    background-color:#d4e6fe ;
+    color: #0410f0;
+}
+#div{
+    width: fit-content;
+    height:fit-content;
+    background-color: white;
+    /* margin-left: 2vw;
+    margin-right: 2vw; */
+    margin: auto;
+    margin-top:6vh;
+    padding: 3vh;
+    
+    
+}
+#div_form{
+    width:fit-content;
+    height:fit-content;
+    /* background-color: rgb(111, 181, 111); */
+
+}
+#form{
+    width: 44vw;
+    height:50vh;
+    /* background-color: green; */
+    margin: 4vw;
+    margin-top:7vh;
+}
+.field{
+    width: 36vw;
+    height: 12vh;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-style: none;
+    border-radius: 16px;
+    padding-left: 20px;
+    color: #0410f0;
+}
+#address{
+    width: 74vw;
+    background-color: #e7e9fe;
+}
+#message{
+    width: 74vw;
+    /* height: 100rem; */
+    background-color:#a5b1fd ;
+}
+/* #fm{
+    width:fit-content;
+    margin-top: 4vw;
+} */
+#git{
+    margin-left: 13vw;
+    width:fit-content;
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#btn {
+    /* margin-left: 32vw; */
+    text-align: center;
+    margin-top: 30px;
+}
+#submit{
+    padding: 4px;
+    width: 130px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: #233bf5;
+    color: white;
+    border-style: none;
+}
+#tnx{
+    margin-left: 10vw;
+    /* width: fit-content; */
+    color: #96dec7;
+}
+#f_name{
+    background-color: #e7e9fe;
+}
+#l_name{
+    background-color: #e7e9fe;
+}
+#email{
+    background-color: #e7e9fe;
+}
+#num{
+    background-color: #e7e9fe;
+}
+#adrs{
+background-color: #e7e9fe;
+}
+::placeholder{
+    color: #0410f0;
+}
